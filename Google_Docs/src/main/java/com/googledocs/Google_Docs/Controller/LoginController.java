@@ -9,7 +9,7 @@ public class LoginController {
 	
 	@PostMapping("/login")
 	public String login(@RequestParam("test") String login) {
-		System.out.println("Hello World....");
+		System.out.println("Hello World...");
 		return login;
 	}
 
